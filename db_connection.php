@@ -3,9 +3,9 @@ header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: POST");
 
 $host = "localhost";
-$user="id18506745_admin";
-$senha="Tv)=U+aV7^9+Wdgm";
-$database="id18506745_votacao";
+$user="root";
+$senha="";
+$database="urna";
 
 $con = mysqli_connect($host, $user,$senha, $database) or die("Erro ao se conectar com o servidor do banco de dados!");
 
@@ -57,4 +57,3 @@ else{
 }
 
 mysqli_close($con);
-?>
